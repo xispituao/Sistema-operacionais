@@ -6,7 +6,8 @@ def main():
         menu()
         opcao = int(input())
         if opcao == 1:
-           algoritmo_circular()
+            print("*****Algoritmo circular*****")
+            algoritmo_circular()
         elif opcao == 2:
             pass
         elif opcao == 0:
